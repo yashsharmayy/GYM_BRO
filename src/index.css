@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.hero {
+  background: transparent;
+}
+li {
+  font-size: 17px;
+  cursor: pointer;
+}
+li:hover {
+  color: #d34c17;
+}
+.menubar {
+  backdrop-filter: blur(10px);
+}
+@theme {
+  --font-bebasNeue: "Bebas Neue", cursive;
+  --font-sansflex: "Google Sans Flex", sans-serif;
+}
+@theme {
+  --color-org69: #f14603;
+  --color-lightorg29: #faece4;
+  --color-dark99: #1a1a1a;
+}
+
+/* swiper */
+
+.swiper-navigation-icon {
+  color: var(--color-org69);
+}
+
+.myswiper .swiper-pagination-bullet-active {
+  background: var(--color-org69); /* Tailwind green-500 */
+}

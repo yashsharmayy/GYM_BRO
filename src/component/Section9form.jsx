@@ -66,7 +66,7 @@ const Section9form = () => {
 
     return (
         <div id='Contact' className='w-full h-full lg:h-[90vh] items-center text-center md:text-left md:items-start  text-white bg-transparent '>
-            <div className='absolute w-full h-[110vh]    bg-[#1c1c1cb1]'></div>
+            <div className='absolute w-full h-full    bg-[#1c1c1cb1]'></div>
             <div className='relative pt-10 px-10 flex flex-col md:flex-row justify-evenly items-center md:items-start'>
                 <div ref={logoiconref} className=' flex flex-col items-center  w-full max-w-100 my-4 '>
                     <div className="logo  relative items-center  flex w-30">

@@ -14,7 +14,7 @@ const Foter = () => {
             scrollTrigger: {
                 trigger: logoiconref.current,
                 // markers: true,
-                start: "bottom 90%",
+                start: "bottom 95%",
                 scrub: false,
             }
         });

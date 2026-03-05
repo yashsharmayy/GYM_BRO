@@ -14,7 +14,7 @@ const Section5 = () => {
             scrollTrigger: {
                 trigger: ratesref.current,
                 // markers: true,
-                start: "top 60%",
+                start: "top 70%",
                 scrub: false,
             }
         });

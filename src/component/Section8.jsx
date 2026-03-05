@@ -13,7 +13,7 @@ const Section8 = () => {
             scrollTrigger: {
                 trigger: aboutmeref.current,
                 // markers: true,
-                start: "top 60%",
+                start: "top 70%",
                 scrub: false,
             }
         });
@@ -34,8 +34,8 @@ const Section8 = () => {
             duration: 0.8,
             scrollTrigger: {
                 trigger: gymmen4imgref.current,
-                // markers: true,
-                start: "top 20%",
+                markers: true,
+                start: "top 70%",
                 end: "top -100%",
                 scrub: 3,
             }

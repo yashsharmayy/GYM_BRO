@@ -12,7 +12,7 @@ const Section3 = () => {
             scrollTrigger: {
                 trigger: trainingref.current,
                 // markers: true,
-                start: "top 60%",
+                start: "top 70%",
                 scrub: false,
             }
         });

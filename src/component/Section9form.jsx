@@ -14,7 +14,7 @@ const Section9form = () => {
             scrollTrigger: {
                 trigger: logoiconref.current,
                 // markers: true,
-                start: "top 70%",
+                start: "top 65%",
                 scrub: false,
             }
         });

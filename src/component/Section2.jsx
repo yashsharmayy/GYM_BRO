@@ -19,7 +19,7 @@ const Section2 = () => {
             scrollTrigger: {
                 trigger: aboutref.current,
                 // markers: true,
-                start: "top 60%",
+                start: "top 65%",
                 scrub: false,
             }
         })
@@ -33,7 +33,7 @@ const Section2 = () => {
             scrollTrigger: {
                 trigger: aboutref.current,
                 // markers: true,
-                start: "top 70%",
+                start: "top 65%",
                 scrub: false,
             }
         })

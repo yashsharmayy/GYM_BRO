@@ -11,7 +11,7 @@ const Section7 = () => {
             scrollTrigger: {
                 trigger: galleryheadref.current,
                 // markers: true,
-                start: "top 70%",
+                start: "top 65%",
                 scrub: false,
             }
         });

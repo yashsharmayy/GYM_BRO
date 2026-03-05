@@ -13,7 +13,7 @@ const Section8 = () => {
             scrollTrigger: {
                 trigger: aboutmeref.current,
                 // markers: true,
-                start: "top 70%",
+                start: "top 65%",
                 scrub: false,
             }
         });

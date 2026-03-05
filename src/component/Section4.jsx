@@ -69,7 +69,7 @@ const Section4 = () => {
                         <h2 className='text-md md:text-lg'>Monday</h2>
                     </div>
                 </div>
-                <div className='flex w-120 justify-evenly my-4 '>
+                <div className='flex w-full max-w-175 justify-evenly my-4 '>
                     <div className='flex flex-col '>
                         <h1 className='font-bebasNeue text-2xl md:text-3xl my-1'>ZUMBA</h1>
                         <h2 className='text-md md:text-lg'>0-1 Hours</h2>

@@ -42,7 +42,7 @@ const Section3 = () => {
                 <p className='text-gray-700 text-lg text-ellipsis'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt accusantium harum quidem officiis eveniet error. Perferendis veniam itaque mollitia minus, dignissimos, ea magni iste vel eaque quia minima, id quis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, vitae?</p>
 
             </div>
-            <div className="min-w-100 w-100 md:w-250 h-fit m-4">
+            <div className="min-w-80 w-100 md:w-250 h-fit m-4">
                 <ul ref={trainingItemsRef} className=''>
                     <li className='text-gray-600'> <span className='text-org69 text-2xl mx-10 font-bold'>{'>'}</span>  Weight Loss/ Management</li>
                     <li className='text-gray-600'> <span className='text-org69 text-2xl mx-10 font-bold'>{'>'}</span>  Toning & sculpting</li>

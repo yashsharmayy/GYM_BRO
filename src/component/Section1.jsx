@@ -24,7 +24,7 @@ const Section1 = () => {
             ease: 'power3.out',
             delay: 0.3
         })
-    })
+    }, [])
 
 
     return (
@@ -38,7 +38,7 @@ const Section1 = () => {
                         JOIN NOW
                     </button></a>
                 </div>
-                <div ref={gymmen1ref} className='w-80 md:w-200 md:min-w-100 h-fit m-20'>
+                <div ref={gymmen1ref} className='w-full md:max-w-125 mx-4 h-fit m-20'>
                     <img className='w-full h-full scale-x-[-1]' src={gymimg} alt="gymmen" />
                 </div>
             </div>

@@ -98,7 +98,7 @@ const Section2 = () => {
                     <a href=""><i className="fa-brands fa-facebook"></i></a>
                 </div>
             </div>
-            <div ref={gymmen2ref} className="min-w-70  md:w-125 lg:w-250 h-fit m-4">
+            <div ref={gymmen2ref} className="w-full  md:w-125 lg:w-200 h-fit m-4">
                 <img className='w-full h-full mb-4  shadow-2xl' src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                 <p className='font-bold text-2xl font-bebasNeue tracking-wider'>[trainer Name] is a Qualified Level 3 Personal Trainer.</p>
             </div>
